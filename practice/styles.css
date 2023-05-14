@@ -1,0 +1,36 @@
+body{
+    background-color: coral;
+}
+nav {
+    text-align: center;
+    background-color: pink(255, 192, 203);
+    color:white;
+  }
+
+  a:hover {
+    font-size: xx-large;
+    color: black;
+  }
+
+  h1 {
+    text-align: left;
+    color: black;
+  }
+  h2{
+    text-align: center;
+    color: white;
+  }
+
+  img {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  
+footer p {
+  font-size: 15px;
+  margin: 20px auto;
+  color: black;
+  text-align: center;
+}
