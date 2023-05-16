@@ -1,0 +1,51 @@
+
+  nav, footer {
+    text-align: center;
+    background-color: steelblue;
+    color: white;
+    padding: 2em 1em;
+    display: flex;
+    justify-content: space-around;
+  }
+a{
+color:#fff;
+padding: 1em
+}
+  a:hover {
+    background-color: #fff;
+    color: steelblue;
+  }
+
+  h1 {
+    text-align: center;
+    color: steelblue;
+  }
+
+  img {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  p {
+    padding: 10px;
+  }
+  footer {
+    background-color: steelblue;
+    color: white;
+  }
+  .main-para {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 1.5em;
+}
+#active {
+  background-color: white;
+  color: steelblue;
+}
+footer p {
+  font-size: 20px;
+  margin: 20px auto;
+}
