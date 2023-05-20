@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans&family=Instrument+Serif&display=swap');
 :root {
     /* change the values below to your colors from your palette */
     --primary-color: #Ff7748   ;
@@ -12,15 +13,23 @@
 }
 
 .home-title {
+    font-family: "Instrument sans", sans-serif;
     color: #5eb1bf;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 .logo {
     width: 80px;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 h4 {
@@ -31,6 +40,7 @@ nav a {
     text-align: center;
     color: whitesmoke;
     text-decoration: none;
+    padding: 35px;
 }
 nav a:hover {
     color: #f37748;
@@ -53,6 +63,10 @@ main section {
     text-align: center;
 }
 
+main section img {
+    box-sizing: border-box;
+}
+
 #background {
     height: 725px;
 background-color: #f37748;
@@ -60,6 +74,14 @@ background-color: #f37748;
 
 body {
     background-color: #E1BC28;
+    font-family: "Instrument serif", serif, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
@@ -72,6 +94,14 @@ header {
     color: #5eb1bf;
     background-color: #eeab92;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
 }
 
 .book:hover, .join:hover {
@@ -79,20 +109,30 @@ header {
     background-color: white;
 }
 
+.card-img {
+    border: 10px solid #595959;
+}
+
 .msg {
     color: white;
     background-color: #595959;
+    line-height: 1.5em;
+    padding: 35px;
 }
 .msg h2 {
     color: #fff;
 }
 .msg p {
     color: #fff;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer {
     color: #fff;
     background-color: #f37748;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a:hover {
@@ -110,4 +150,8 @@ footer p {
 
 footer p a:hover {
     text-decoration: underline;
+}
+
+footer .social img{
+    padding: 15px;
 }
