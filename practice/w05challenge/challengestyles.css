@@ -3,9 +3,19 @@
 
 }
 
-main {
+footer{
     background-color: grey;
-    text-align: center;
-    
+    padding: 20px;
+}
+.image-container{
+    display: flex;
+    justify-content: space-between;
 }
 
+img {max-width: 100%;
+    height: auto;
+}
+footer .img{
+    border-radius: 50%;
+    
+}
