@@ -1,19 +1,29 @@
 .content{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    margin: 10px, auto;
+    /* margin: 10px, auto;
     background-color: grey;
     height: 665px; 
-    width: 1336px;
+    width: 1336px; */
     
 }
 
-h1, h2{
+h1 {
+    position: absolute;
     text-align: center;
+    align-items: center;
     font-size: xx-large;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+h2 {
+    grid-column: 2;
+    background-color: gray;
+    align-items: center;
 }
  
-.img{
-    grid-row:1/2;
-}
+.img {
+    grid-row:1;
+} 
 
