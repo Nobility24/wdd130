@@ -1,0 +1,33 @@
+*{
+padding: 0;
+margin: 0;
+background-color: white;
+
+}
+
+.card{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#img {
+  width: 100%;
+}
+
+p {
+    color: grey;
+    text-align: center;
+}
+footer {
+    display: grid;
+    grid-template-columns: 33.3px 33.3px 33,3px;
+    justify-content: space-between;
+    color: white;
+    background-color: blue;
+  }
+
+
+  
