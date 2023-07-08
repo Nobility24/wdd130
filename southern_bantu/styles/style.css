@@ -69,6 +69,36 @@ p {
     border: 5px solid #595959;
 }
 
+/* Container holding the image and the text */
+.map {
+    position: relative;
+  }
+  
+  /* Bottom right text */
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+.museum {
+    position: relative;
+}
+
+.text-block1 {
+    position: absolute;
+    bottom: 20px;
+    right: 150px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
 #img1 {
     display: flex;
     margin: 0 auto;
@@ -103,8 +133,8 @@ body {
 }
 
 .book:hover {
-    color: #15616D;
-    background-color: white;
+    color: whitesmoke;
+    background-color: #15616D;
 }
 
 footer {
@@ -130,3 +160,4 @@ footer p a:hover {
 footer .social img{
     padding: 15px;
 }
+
