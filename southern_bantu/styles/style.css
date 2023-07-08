@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu&display=swap');
+
+:root {
+  /* change the values below to your colors from your palette */
+  --primary-color: #15616D  ;
+  --secondary-color: #001521 ;
+  --accent1-color: #FFECD1;
+  --accent2-color: #FF7D00;
+
+ /* change the values below to your chosen font(s) */
+ --heading-font: Open Sans, serif;
+ --paragraph-font: Ubuntu, sans-serif;
+}
+
+#content {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    color: black;
+    background-color: #15616D;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+nav a {
+    text-align: center;
+    color: #FFECD1;
+    text-decoration: none;
+    padding: 35px;
+}
+nav a:hover {
+    color: black;
+    background-color: whitesmoke;
+}
+.logo {
+    width: 120px;
+    
+}
+
+.intro-card {
+    text-align: left;
+}
+
+h3 {
+    text-align: center;
+}
+
+p {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#intro-img {
+    width: 100%;
+    margin-top: 0;
+    border: 5px solid #595959;
+}
+
+#img1 {
+    display: flex;
+    margin: 0 auto;
+    border: 5px solid #595959;
+    box-shadow: 5px 5px 10px #6f7364;
+}
+
+body {
+    background-color: #FFECD1;
+    font-family: "Open sans", "Ubuntu", serif, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+.book {
+    display: grid;
+    justify-content: center;
+    width: 200px;
+    grid-column: 50%;
+    color: whitesmoke;
+    background-color: #001521;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.book:hover {
+    color: #15616D;
+    background-color: white;
+}
+
+footer {
+    color: #FFECD1;
+    background-color: #FF7D00;
+    padding: 25px 50px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a {
+    color: #001521;
+    font-size: 1.2em;
+}
+
+footer p a:hover {
+    text-decoration: underline dotted;
+    background-color: #FFECD1;
+}
+
+footer .social img{
+    padding: 15px;
+}
