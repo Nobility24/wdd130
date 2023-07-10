@@ -77,8 +77,8 @@ p {
   /* Bottom right text */
 .text-block {
     position: absolute;
-    bottom: 20px;
-    right: 20px;
+    bottom: 500px;
+    right: 5px;
     background-color: black;
     color: white;
     padding-left: 20px;
