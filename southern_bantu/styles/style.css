@@ -174,7 +174,7 @@ h4 {
 .school {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-row: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
 }
 
 #schooling {
